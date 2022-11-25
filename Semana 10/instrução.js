@@ -54,7 +54,7 @@ a.forEach(valor => {
 
 console.log(tot);
 
-a.forEach(function (valor, indice, array) {
+a.forEach(function (valor, indice, array){
     console.log(array[indice]);
 };
 
@@ -70,7 +70,7 @@ for (let caracteristica in carro) {
 
 
 for (let c of carro) {
-    console.log(c.ano);
+    console.log (c.ano);
 }
 
 var c = 1;
@@ -81,7 +81,7 @@ while (c <= 500) {
 };
 
 var t = 1;
-do {
+do{
     console.log(t);
-    t++;
-} while (t < 6)
+    t++;    
+}while(t < 6)
