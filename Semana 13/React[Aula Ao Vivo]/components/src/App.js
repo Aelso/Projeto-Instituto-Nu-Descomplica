@@ -4,13 +4,15 @@ import Body from './components/body';
 import Footer from './components/footer';
 import { useState } from 'react';
 
-
-
 function App() {
+
   console.log('Helo World')
+
   const name = "Aelso Brito : )";
+
   const [count, setCount] = useState(0);
-  const [info, setInfo] = useState('')
+  const [info, setInfo] = useState(' ')
+
   function clickAumentar() {
     //setCount(count + 1);
     console.log('entrou')
@@ -18,11 +20,13 @@ function App() {
     setCount(count + 1);
   }
 
+  console.log(count);
+
   return (
     <div className="App">
       <Header name={name} />
       <Body clickAumentar={clickAumentar} />
-      <h3>Info:{setInfo}</h3>
+      <h3>Info: {info} - Contador {count}</h3>
       <Footer />
 
     </div>
