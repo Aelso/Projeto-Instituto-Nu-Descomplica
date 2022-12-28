@@ -1,8 +1,9 @@
-export default function Body() {
+export default function Body(clickAumentar) {
     return (
         <div className="App-body">
             <p>
-                Edit <code>src/App.js</code> and save to reload.
+              <h1>Hello World!!!</h1>
+              <button onClick={clickAumentar}>Aumentar</button>
             </p>
             <a
                 className="App-link"
