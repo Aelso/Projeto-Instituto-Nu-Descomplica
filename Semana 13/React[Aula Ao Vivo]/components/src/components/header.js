@@ -17,5 +17,10 @@ export default function Header (props) {
             >
                 Header
             </a>
-        </header>);
+        </header>
+        );
 }
+
+
+
+// Path: components\src\components\body.js
