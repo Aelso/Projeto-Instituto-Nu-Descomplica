@@ -1,6 +1,6 @@
 import logo from '../logo.svg';
 
-export default function Header(props) {
+export default function Header (props) {
     console.log(props.name);
 
     return (
