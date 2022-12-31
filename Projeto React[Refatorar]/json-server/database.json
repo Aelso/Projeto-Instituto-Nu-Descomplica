@@ -1,0 +1,53 @@
+{
+    "users": [
+      {
+        "name": "Luke Skywalker",
+        "species": "Human",
+        "homeworld": "Tatooine",
+        "id": 1
+      },
+      {
+        "name": "Darth Vader",
+        "species": "Human",
+        "homeworld": "Tatooine",
+        "id": 2
+      },
+      {
+        "name": "Han Solo",
+        "species": "Human",
+        "homeworld": "Corellia",
+        "id": 3
+      },
+      {
+        "name": "Leia Organa",
+        "species": "Human",
+        "homeworld": "Alderaan",
+        "id": 4
+      },
+      {
+        "name": "C-3PO",
+        "species": "Droid",
+        "homeworld": "Tatooine",
+        "id": 5
+      },
+      {
+        "name": "R2-D2",
+        "species": "Droid",
+        "homeworld": "Naboo",
+        "id": 6
+      },
+      {
+        "name": "Yoda",
+        "species": "Unknown",
+        "homeworld": "Dagobah",
+        "id": 7
+      },
+      {
+        "name": "Obi-Wan Kenobi",
+        "species": "Human",
+        "homeworld": "Stewjon",
+        "id": 8
+      }
+    ]
+  }
+  
