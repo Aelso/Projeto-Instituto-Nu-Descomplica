@@ -1,0 +1,21 @@
+body{
+    background-color: #f2f2f2;
+}
+.logiClass{
+    width: 400px;
+    margin: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.registerClass{
+    width: 400px;
+    margin: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Path: router\src\register.css */

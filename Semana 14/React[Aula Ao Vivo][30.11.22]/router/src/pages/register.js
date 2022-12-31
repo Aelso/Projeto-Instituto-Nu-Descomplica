@@ -2,6 +2,8 @@
 import Cadastro from "../components/cadastro"
 import FooterComponent from "../components/footer";
 import Header from "../components/header";
+import './register.css'
+
 export default function Register() {
     const name = 'Aula Descomplica - React'
     return (

@@ -1,26 +1,45 @@
-import logo from '../logo.svg';
 
-export default function Header (props) {
-    console.log(props.name);
-
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+function Header(props) {
+    console.log(props.name)
     return (
-        <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              <h3>{props.name}</h3>
-            </p>
-            <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Header
-            </a>
-        </header>
-        );
+        <Navbar bg="primary" variant="dark">
+            <Container>
+                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                <Nav className="me-auto">
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/cadastro">Cadastro</Nav.Link>
+                    <Nav.Link href="#pricing">Pricing</Nav.Link>
+                </Nav>
+            </Container>
+        </Navbar>
+    );
 }
 
+export default Header;
+  /**
+ *   <Nav
+    activeKey="/home"
+    onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+  >
+    <Nav.Item>
+      <Nav.Link href="/home">Active</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link href="/cadastro">Cadastro</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link eventKey="link-2">Link</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link eventKey="disabled" disabled>
+        Disabled
+      </Nav.Link>
+    </Nav.Item>
+  </Nav>
+ */
 
 
 // Path: components\src\components\body.js

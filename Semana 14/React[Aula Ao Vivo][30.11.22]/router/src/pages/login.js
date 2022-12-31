@@ -2,8 +2,8 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 export default function Login() {
     return (
-        <div className='loginClass'>      
-            <Form>        
+        <div className='loginClass'>
+            <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email</Form.Label>
                     <Form.Control type="email" placeholder="Inform seu email" />
@@ -21,8 +21,8 @@ export default function Login() {
                 <Button variant="primary" type="submit">
                     Login
                 </Button>
-            </Form>     
-            
-         </div>
-       );
+            </Form>
+
+        </div>
+    );
 }

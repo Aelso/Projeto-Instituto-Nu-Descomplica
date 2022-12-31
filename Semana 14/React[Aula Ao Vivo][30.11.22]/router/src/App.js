@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
 import Body from './components/body';
 import Header from './components/header';
+import Footer from './components/footer';
 import {useState} from 'react';
 import Home from './pages/home';
 import Login from './pages/login';
@@ -10,8 +11,8 @@ import Register from './pages/register';
 
 
 function App() {
-  console.log('App aula descomplica!')
-  const name = "Professor Bruno Hauck!";
+  console.log('App das aulas da descomplica!')
+  const name = "Dev Aelso Rocha Brito!";
 
   const [count, setCount ] = useState(0);
   const [info, setInfo] = useState('')
@@ -21,12 +22,11 @@ function App() {
     setInfo('Final da aula')
     setCount(count + 1);
   }
-  /*  <Body clickAumentar={clickAumentar}  />
-      <h3>Info: {info} - Contador {count} </h3>
-       */
+
   console.log(count)
-  //brunohauck@gmail.com
-  //  <Header name={name} /> 
+ 
+  //https://github.com/Aelso/Instituto-Nu-e-Descomplica-Exercicios
+  
   return (
     <div className="App">
       <BrowserRouter>
